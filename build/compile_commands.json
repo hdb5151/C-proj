@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../includes   -O0 -Wall -g -ggdb   -std=gnu++1z -o CMakeFiles/thread.dir/src/makeThread.cpp.o -c /home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/src/makeThread.cpp",
+  "file": "/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/src/makeThread.cpp"
+},
+
+{
+  "directory": "/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../includes   -O0 -Wall -g -ggdb   -std=gnu++1z -o CMakeFiles/thread.dir/src/mian.cpp.o -c /home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/src/mian.cpp",
+  "file": "/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/src/mian.cpp"
+},
+
+{
+  "directory": "/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../includes   -O0 -Wall -g -ggdb   -std=gnu++1z -o CMakeFiles/thread.dir/src/mutex_lock.cpp.o -c /home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/src/mutex_lock.cpp",
+  "file": "/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/src/mutex_lock.cpp"
+}
+]

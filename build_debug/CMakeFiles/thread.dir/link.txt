@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -Wall -g -ggdb   CMakeFiles/thread.dir/src/makeThread.cpp.o CMakeFiles/thread.dir/src/mian.cpp.o CMakeFiles/thread.dir/src/mutex_lock.cpp.o  -o thread -lpthread -lm -ldl 
