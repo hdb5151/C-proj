@@ -19,3 +19,28 @@ void copystr(char* from,char* to){
       *to='\0';
 }
 ```
+
+## 函数指针 和 指针函数
+>* 函数指针： int (*fun)(int x,int y):    本质是一个指针、其指向一个函数
+```
+int max(int a,int b){
+      return a:b?a>=b;
+}
+
+int min(int a,int b){
+      return a:b?a<=b;
+}
+// 声明 函数指针：
+int (*p)(int,int);
+
+void test(){
+      int m=6,n=9;
+      p=max;
+      int result=p(m,n);
+      
+      p=min;
+      result=p(m,n);
+
+}
+```
+>* 指针函数： int *fun(int x,int y):      本质是一个函数，其返回值为指针

@@ -7,8 +7,7 @@
 using namespace std;
 
 int t_f_e_sum = 0;
-void test_for_each(int test)
-{
+void test_for_each(int test) {
     t_f_e_sum += test;
 }
 // int main()
@@ -31,28 +30,46 @@ void test_for_each(int test)
 //     return 0;
 // }
 
-int main(int argv, char **argc)
-{
-    int(*p)[10]; //定义数组指针 --> 指向数组的首地址；
-    int a[3][10];
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 10; j++)
-        {
-            a[i][j] = i + j;
-        }
-    }
-    p = a;
-    int *q = (int *)p;
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 10; j++)
-        {
-            printf("%d", *q);
-            q++;
-        }
-        printf("-----------------\n");
-        p++;
-        q = (int *)p;
-    }
+int max(int a, int b) {
+    // int relt = a >= b ? a : b;
+    return a >= b ? a : b;
+}
+
+int min(int a, int b) {
+    // int relt = a <= b ? a  : b;
+    return a <= b ? a  : b;
+}
+// 声明 函数指针：
+int (*p)(int x, int y);
+
+int main(int argv, char **argc) {
+    // int(*p)[10]; //定义数组指针 --> 指向数组的首地址；
+    // int a[3][10];
+    // for (int i = 0; i < 3; i++)
+    // {
+    //     for (int j = 0; j < 10; j++)
+    //     {
+    //         a[i][j] = i + j;
+    //     }
+    // }
+    // p = a;
+    // int *q = (int *)p;
+    // for (int i = 0; i < 3; i++)
+    // {
+    //     for (int j = 0; j < 10; j++)
+    //     {
+    //         printf("%d", *q);
+    //         q++;
+    //     }
+    //     printf("-----------------\n");
+    //     p++;
+    //     q = (int *)p;
+    // }
+    int m = 11, n = 9;
+    p = max;
+    int result = p(m, n);
+    printf("max=%d\n", result);
+    p = min;
+    result = p(m, n);
+    printf("min=%d\n", result);
 }
