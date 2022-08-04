@@ -44,3 +44,22 @@ void test(){
 }
 ```
 >* 指针函数： int *fun(int x,int y):      本质是一个函数，其返回值为指针
+
+# Cpp11 for循环的使用
+```
+int v[]{1,3,5,7,9}
+//--> 1: x首先依次复制 v中的数据 然后打印
+for(auto x:v){
+      std::cout<<x<<std::endl;
+}
+
+// -->2：   x首先依次复制 数组中的数据然后打印
+for(auto x:{2,4,6,8,10}){
+      std::cout<<x<<std::endl;
+}
+
+// -->3:    使用“引用”，此时x只是v成员的别名，不会再复制数据， 直接打印v中的数据git
+for(auto &x:v){
+      std::cout<<x<<std::endl;
+}
+```

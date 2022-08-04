@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -Wall   CMakeFiles/Cpp_Class.dir/src/Cpp_Class/main.cpp.o  -o bin/Cpp_Class  -L/opt/percipio/lib -Wl,-rpath,/opt/percipio/lib libsample_common.a -lpthread -lm -ldl 

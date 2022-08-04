@@ -1,0 +1,5 @@
+/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build_release/CMakeFiles/rebuild_cache.dir
+/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build_release/CMakeFiles/edit_cache.dir
+/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build_release/CMakeFiles/sample_common.dir
+/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build_release/CMakeFiles/Thread.dir
+/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build_release/CMakeFiles/Cpp_Class.dir

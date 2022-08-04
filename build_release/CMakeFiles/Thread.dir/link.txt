@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -Wall   CMakeFiles/Thread.dir/src/Thread/makeThread.cpp.o CMakeFiles/Thread.dir/src/Thread/mian.cpp.o CMakeFiles/Thread.dir/src/Thread/mutex_lock.cpp.o  -o bin/Thread  -L/opt/percipio/lib -Wl,-rpath,/opt/percipio/lib libsample_common.a -lpthread -lm -ldl 

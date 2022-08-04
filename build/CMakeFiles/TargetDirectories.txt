@@ -1,3 +1,0 @@
-/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build/CMakeFiles/rebuild_cache.dir
-/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build/CMakeFiles/thread.dir
-/home/hdb/HDB_tempt/theProject/C_C++proj/ThreadProj/build/CMakeFiles/edit_cache.dir
